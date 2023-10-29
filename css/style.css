@@ -1,0 +1,414 @@
+.wrap{
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+
+/* ここから下はheader */
+/* flexを使えば横並びに出来る */
+.header{
+    display: flex;
+    width:100%;
+}
+
+/* floatで使えば横並びに出来る */
+.header-logo{
+    height: 100%;
+    width: 10px;
+}
+
+.list-menu{
+    /* justify-content: flex-end; */
+    margin-right: 40px;
+}
+
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 25px 25px;
+    font-size:21px;
+}
+/* ここから上はheader */
+
+
+
+
+
+/* ここから下はmain */
+/* ここから下はmainbg */
+.main{
+    width: 100%;
+}
+
+.mainbg{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.mainbg_img{
+    width: 100%;
+}
+
+.main-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main-content-1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.main-content-2{
+    color: white;
+    font-size: 20px;
+}
+/* ここから上はmainbg */
+
+
+/* ここから下はabout */
+.about{
+    width: 100%;
+}
+
+.about p{
+    text-align: center;
+}
+
+.en_title{
+    font-size: 24px;
+    color: rgb(255, 196, 0);
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.ja_title{
+    font-size: 18px;
+}
+
+.detail{
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+
+/* ここから上はabout */
+
+
+/* ここから下はabout_img */
+.about_img{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.about_img img{
+    width: 25%;
+}
+/* ここから上はabout_img */
+
+
+/* ここから下はcourse */
+.course{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.course p{
+    text-align: center;
+}
+
+.course_title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+/* ここから上はcourse */
+
+
+
+/* ここから下はcourse_detail */
+.course_1{
+    width: 100%;
+    display: flex;
+}
+
+.course_1 img { 
+    width: 50%;
+}
+
+.course_1_detail{
+    background-color: #f1f1f1;
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+} 
+
+.course_1_detail_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.course_2{
+    width: 100%;
+    display: flex;
+}
+
+.course_2 img { 
+    width: 50%;
+}
+
+.course_2_detail{
+    background-color: #f1f1f1;
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+} 
+
+.course_2_detail_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+.course_3{
+    width: 100%;
+    display: flex;
+}
+
+.course_3 img { 
+    width: 50%;
+}
+
+.course_3_detail{
+    background-color: #f1f1f1;
+    width: 50%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+} 
+
+.course_3_detail_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+/* ここから上はcourse_detail */
+
+
+/* ここから下はnews */
+.news{
+    width: 100%;
+}
+
+.news_title_en{
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.news_title_ja{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news_topic_center{
+    display: flex;
+    justify-content: center
+}
+
+.news_topic{
+    width: 300px;
+    margin-left:15px ;
+    margin-right:15px ;
+}
+
+.news_date{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.news_info{
+    font-size: 14px;
+}
+
+.more_buttun{
+    margin: 0 auto;
+    background: rgb(255, 145, 0);
+    width: 300px;
+    height: 60px;
+    margin: 60px auto;
+}
+
+.more_buttun input{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 145, 0);
+}
+
+
+
+
+/* ここから上はnews */
+
+
+
+
+
+/* ここから下はcompany */
+.company{
+    width: 100%;
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.access{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.company_info{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px
+}
+
+.maps{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.company_info_table{
+    margin:0 auto;
+}
+
+.company_info_table td {
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+/* ここから上はcompany */
+
+
+
+/* ここから下はcontact */
+.contact{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact_title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact_title_sub{
+    margin-top: 30px;
+}
+
+.contact_detail{
+    margin-bottom: 15px;
+}
+
+
+
+
+/* ここから上はcontact */
+
+
+
+/* ここから下はform */
+.form{
+    width: 100%;
+}
+
+.form_table{
+    margin:0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.form_table td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 64px;
+    border: solid 1px #778ca3;
+}
+
+.input{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 300px;
+}
+
+.select{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    width: 300px;
+}
+
+.checkbox label{
+    display:block;
+    padding-bottom: 24px;
+}
+
+.submit_buttun{
+    margin: 0 auto;
+    background: rgb(255, 145, 0);
+    width: 300px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.submit_buttun input{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 145, 0);
+}
+/* ここから上はform */
+
+/* ここから上はmain */
+
+
+
+
+
+/* ここから下はfooter */
+/* 背景の色はbg(background)で設定 */
+.footer{
+    width: 100%;
+    background:#707070;
+}
+
+/* text-alignとpaddingで中央寄せできた */
+.footer_letter{ 
+    color:white;
+    text-align:center;
+    padding:30px 0;
+}
+/* ここから上はfooter */
